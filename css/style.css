@@ -1,0 +1,65 @@
+:root {
+  --color-deep-teal: #142f32;
+  --color-light-green: #e3ffcc;
+  --color-dark-gray: #292830;
+  --color-blue-gray: #777c90;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope/Manrope-VariableFont_wght.ttf") format(truetype);
+  font-weight: normal; /* For variable font */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope/static/Manrope-Bold.ttf") format(truetype);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope/static/Manrope-SemiBold.ttf") format(truetype);
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope/static/Manrope-Medium.ttf") format(truetype);
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope/static/Manrope-Regular.ttf") format(truetype);
+  font-weight: normal; /* Regular */
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: var(--color-dark-gray);
+}
+
+h1 {
+  font-weight: bold; /* Using the Bold version */
+}
+
+h1 > span {
+  color: var(--color-deep-teal);
+}
+
+p {
+  font-weight: normal; /* Using the Regular version */
+}
