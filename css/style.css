@@ -50,6 +50,7 @@
 body {
   font-family: "Manrope", sans-serif;
   color: var(--color-dark-gray);
+  background-color: #f5f8f9;
 }
 
 h1 {
@@ -60,71 +61,35 @@ p {
   font-weight: normal; /* Using the Regular version */
 }
 
-/* Navbar */
-nav {
+/* NAVBAR */
+
+header nav {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
 }
 
-nav ul.nav-links {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
+header nav ul {
   width: 50%;
+  display: flex;
+  justify-content: space-around;
 }
 
-div.auth-buttons {
-}
-
-/* Main sections */
-main {
-  width: 100%;
-}
+/* MAIN */
 
 main section.hero {
-  width: 70%;
-  margin: auto;
-
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 
+  margin: auto;
+}
+
+main section.hero div.hero-content {
+  width: 70%;
   text-align: center;
 }
 
 main section.hero h1 {
   font-size: 3rem;
-}
-
-main section.hero h1 span {
-  color: var(--color-deep-teal);
-}
-
-main section.hero p {
-}
-
-main section.hero div.hero-buttons {
-}
-
-main section.hero div.hero-buttons button {
-  margin: 0 1rem;
-}
-
-/*  */
-
-div.review-rate div.stars img {
-  height: 1rem;
-}
-
-div.review-rate span.rating-score {
-}
-
-div.review-rate span.rating-score {
-  font-weight: bold;
-}
-
-div.review-rate p span {
-  font-weight: bold;
-  border-bottom-style: dotted;
 }

@@ -7,4 +7,4 @@ I'm not affiliated with the original creator in any way. This is a non-commercia
 
 ## 📸 Screenshots
 
-![App Screenshot](assets/img/original-88af8a5c75fc7670988f234b2f4c7f2a.webp)
+![App Screenshot](assets/img/prodmast.webp)
