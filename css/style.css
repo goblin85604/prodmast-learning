@@ -3,6 +3,7 @@
   --color-light-green: #e3ffcc;
   --color-dark-gray: #292830;
   --color-blue-gray: #777c90;
+  --light-gray: #f5f8f9;
 }
 
 /* Fonts */
@@ -45,51 +46,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  border: none;
+  background: none;
 }
 
 body {
   font-family: "Manrope", sans-serif;
   color: var(--color-dark-gray);
-  background-color: #f5f8f9;
-}
-
-h1 {
-  font-weight: bold; /* Using the Bold version */
-}
-
-p {
-  font-weight: normal; /* Using the Regular version */
-}
-
-/* NAVBAR */
-
-header nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-header nav ul {
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-}
-
-/* MAIN */
-
-main section.hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  margin: auto;
-}
-
-main section.hero div.hero-content {
-  width: 70%;
-  text-align: center;
-}
-
-main section.hero h1 {
-  font-size: 3rem;
+  background-color: var(--light-gray);
 }
