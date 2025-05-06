@@ -7,204 +7,235 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        Prodmast
-
-        <ul>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <div class="navbar-brand"><a href="/" class="logo"><img src="assets/img/prodmast-logo.jpg" alt="Prodmast Logo">Prodmast</a></div>
+    
+        <ul class="navbar-menu">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-
-        <button>Sign Up</button>
+    
+        <div class="navbar-actions"><button type="button" class="btn-signup">Sign Up</button></div>
       </nav>
     </header>
 
     <main>
-      <section>
-        <h1>The Future of Manufacturing with Latest Technology</h1>
+      <section aria-labelledby="hero-heading">
+        <h1 aria-label="hero-heading">The Future of Manufacturing with Latest Technology</h1>
         <p>
           Expert tech to elevate your manufacturing. Let's take your business
           further.
         </p>
 
-        <button>Get Started</button>
-        <button>Try Demo</button>
-
         <div>
-          5.0 from 80+ reviews
+          <button>Get Started</button>
+          <button>Try Demo</button>
+        </div>
 
+        <ul>
+          <li class="stat-card rating-card">
+            <div class="rating-content">
+              <img src="assets/img/star-rating.jpg" alt="5 out of 5 stars">
+              <p><strong>5.0</strong></p>
+              <p>from 80+ <span class="label">reviews</span></p>
+            </div>
+          </li>
+        
           <!-- IRREGULAR CARDS -->
+        
+          <li class="stat-card">
+            <p>
+              <span class="stat-large">100+</span> Our Esteemed Clients and Partners
+            </p>
+          </li>
 
-          100+ Our Esteemed Clients and Partners
-          
-          Total Projects 8% 1951+ Increase of 126 this month 
-          
-          6+ Years of Dedicated Service
-          
-          Achieve Optimal Efficiency and Boost Productivit
+          <li class="stat-card">
+            <p>
+              Total Projects
+              <span class="stat-growth"><img src="assets/img/arrow-up-right.jpg" alt="growth arrow">8%</span>
+              <span class="stat-large">1951+</span>
+              Increase of <span class="stat-highlight">126</span> this month
+            </p>
+          </li>
+        
+          <li class="stat-card">
+            <p>
+              <span class="stat-large">6+</span> Years of Dedicated Service
+            </p>
+          </li>
+        
+          <li class="stat-card efficiency-card">
+            <p>
+              <img src="assets/img/tachometer.jpg" alt="tachometer icon">
+              Achieve Optimal Efficiency and Boost Productivit
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="services">
+        <header class="section-header">
+          <h2>Efficient and Integrated Manufacturing Services</h2>
+          <p>Simplify operations with our efficient, quality-focused services.</p>
+        </header>
+      
+        <!-- CARDS -->
+      
+        <div class="card-grind">
+          <article class="service-card">
+            <h3>Production and Assembly</h3>
+            <p>
+              Details on production processes, assembly, capacity, and product
+              types.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Custom Manufacturing</h3>
+            <p>Custom product creation with design and customization options.</p>
+          </article>
+          <article class="service-card">
+            <h3>Quality Control</h3>
+            <p>Procedures and systems in place to ensure high product quality.</p>
+          </article>
+          <article class="service-card">
+            <h3>Technology and Innovation</h3>
+            <p>
+              Details on the latest manufacturing technologies and ongoing
+              innovations.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Packaging and Logistics</h3>
+            <p>
+              Packaging and logistics for shipping to customers and distributors.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Consulting Market Research</h3>
+            <p>
+              Services to help companies understand market needs and provide
+              strategic advice.
+            </p>
+          </article>
         </div>
       </section>
-
-      <section>
-        <h2>Efficient and Integrated Manufacturing Services</h2>
-        <p>Simplify operations with our efficient, quality-focused services.</p>
-
-        <!-- CARDS -->
-
-        <article>
-          <h3>Production and Assembly</h3>
+ 
+      <section class="benefits">
+        <header class="section-header">
+          <h2>Key Benefits of Our System for Your Business Efficiency</h2>
           <p>
-            Details on production processes, assembly, capacity, and product
-            types.
+            Our systems boost productivity, cut costs, and drive business growth.
           </p>
-        </article>
-
-        <article>
-          <h3>Custom Manufacturing</h3>
-          <p>Custom product creation with design and customization options.</p>
-        </article>
-
-        <article>
-          <h3>Quality Control</h3>
-          <p>Procedures and systems in place to ensure high product quality.</p>
-        </article>
-
-        <article>
-          <h3>Technology and Innovation</h3>
-          <p>
-            Details on the latest manufacturing technologies and ongoing
-            innovations.
-          </p>
-        </article>
-
-        <article>
-          <h3>Packaging and Logistics</h3>
-          <p>
-            Packaging and logistics for shipping to customers and distributors.
-          </p>
-        </article>
-
-        <article>
-          <h3>Consulting Market Research</h3>
-          <p>
-            Services to help companies understand market needs and provide
-            strategic advice.
-          </p>
-        </article>
-      </section>
-
-      <section>
-
-
-        <h2>Key Benefits of Our System for Your Business Efficiency</h2>
-        <p>
-          Our systems boost productivity, cut costs, and drive business growth.
-        </p>
+        </header>
 
         <!-- LISTING -->
 
-        <article>
-          <h3>Boosting Quality with Tech</h3>
-          <p>
-            With advanced technology, we help you achieve top product quality.
-            Discover how we can enhance your standards.
-          </p>
-        </article>
-
-        <article>
-          <h3>Optimization Production Process</h3>
-          <p>
-            Boost factory efficiency and productivity with our innovative
-            solutions. See how the latest technology can maximize your output.
-          </p>
-        </article>
-
-        <article>
-          <h3>Al-Driven Production</h3>
-          <p>
-            Leverage the power of Al to transform your manufacturing processes,
-            achieving faster and more effective results.
-          </p>
-        </article>
-      </section>
-
-      <section>
-        <h2>Tailored Plans for Your Manufacturing Scale</h2>
-        <p>Flexible pricing for any business size.</p>
-
-        <div>
-          <h3>Starter</h3>
-          <p>This package offers the basic features you need to get started.</p>
-
-          <p><span>$39</span><span>/month</span></p>
-          <button role="button">Get Started</button>
-
-          <p>Features</p>
-          <ul>
-            <li>Production up to 10,000 units per month</li>
-            <li>24/7 technical support</li>
-            <li>Access the production dashboard</li>
-            <li>Initial setup guide</li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Enterprise</h3>
-          <p>This package provides full access to all premium features.</p>
-
-          <p><span>$99</span><span>/month</span></p>
-          <button role="button">Get Started</button>
-
-          <p>Features</p>
-          <ul>
-            <li>Unlimited production units Dedicated account manager</li>
-            <li>Tailored manufacturing solutions</li>
-            <li>Predictive production optimization</li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Professional</h3>
-          <p>
-            Designed for greater flexibility, this solution offers advanced
-            tools for custom tailoring to your needs.
-          </p>
-
-          <button role="button">Get Started</button>
+        <div class="benefits-list">
+          <article class="benefit-card">
+            <h3>Boosting Quality with Tech</h3>
+            <p>
+              With advanced technology, we help you achieve top product quality.
+              Discover how we can enhance your standards.
+            </p>
+          </article>
+          <article class="benefit-card">
+            <h3>Optimization Production Process</h3>
+            <p>
+              Boost factory efficiency and productivity with our innovative
+              solutions. See how the latest technology can maximize your output.
+            </p>
+          </article>
+          <article class="benefit-card">
+            <h3>Al-Driven Production</h3>
+            <p>
+              Leverage the power of AI to transform your manufacturing processes,
+              achieving faster and more effective results.
+            </p>
+          </article>
         </div>
       </section>
 
-      <section>
-        <h2>Empowering Top Companies with Seamless Integrations</h2>
-        <p>
-          Experience seamless connections with our innovative solutions,
-          designed to effortlessly integrate with your existing systems, enhance
-          productivity, and drive your business towards greater success.
-        </p>
+      <section class="pricing">
+        <header class="header-section">
+          <h2>Tailored Plans for Your Manufacturing Scale</h2>
+          <p>Flexible pricing for any business size.</p>
+        </header>
+      
+        <div class="pricing-plans">
+          <article class="pricing-card">
+            <h3>Starter</h3>
+            <p>This package offers the basic features you need to get started.</p>
+            <p><span class="price">$39</span><span>/month</span></p>
+            <button role="button">Get Started</button>
+            <p>Features</p>
+            <ul>
+              <li>Production up to 10,000 units per month</li>
+              <li>24/7 technical support</li>
+              <li>Access the production dashboard</li>
+              <li>Initial setup guide</li>
+            </ul>
+          </article>
+          <article class="pricing-card">
+            <h3>Enterprise</h3>
+            <p>This package provides full access to all premium features.</p>
+            <p><span class="price">$99</span><span>/month</span></p>
+            <button role="button">Get Started</button>
+            <p>Features</p>
+            <ul>
+              <li>Unlimited production units Dedicated account manager</li>
+              <li>Tailored manufacturing solutions</li>
+              <li>Predictive production optimization</li>
+            </ul>
+          </article>
+          <article class="pricing-card">
+            <h3>Professional</h3>
+            <p>
+              Designed for greater flexibility, this solution offers advanced
+              tools for custom tailoring to your needs.
+            </p>
+            <button role="button">Get Started</button>
+          </article>
+        </div>
+      </section>
 
-        <button role="button">Work With Us</button>
+      <section class="cta-section">
+        <header class="header-section">
+          <h2>Empowering Top Companies with Seamless Integrations</h2>
+          <p>
+            Experience seamless connections with our innovative solutions,
+            designed to effortlessly integrate with your existing systems, enhance
+            productivity, and drive your business towards greater success.
+          </p>
+        </header>
+      
+        <div class="cta-actions">
+          <button role="button">Work With Us</button>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <header class="header-section">
+          <h2>From Idea to Production in Days</h2>
+          <p>
+            Accelerate your production with our technology. Reduce downtime and
+            optimize costs. Get a special offer now!
+          </p>
+        </header>
+      
+        <div class="cta-actions">
+          <button role="button">Work With Us</button>
+        </div>
       </section>
     </main>
 
     <footer>
-      <div>
-        <h2>From Idea to Production in Days</h2>
-        <p>
-          Accelerate your production with our technology. Reduce downtime and
-          optimize costs. Get a special offer now!
-        </p>
-
-        <button role="button">Work With Us</button>
-      </div>
-
-      <div>
+      <div class="footer-top">
         <!-- BRAND -->
-
-        <div>
-          <span>Prodmast</span>
+        <div class="footer-brand">
+          <span class="brand-name">Prodmast</span>
           <p>
             Our solutions make production faster and cheaper. Contact us for
             more information.
@@ -212,8 +243,7 @@
         </div>
 
         <!-- LINKS -->
-
-        <div>
+        <div class="footer-links">
           <ul>
             <li><h4>Company</h4></li>
             <li><a href="#">About Us</a></li>
@@ -238,35 +268,20 @@
         </div>
 
         <!-- CONTACT -->
-
-        <div>
+        <div class="footer-contact">
           <p>Get In Touch</p>
           <a href="mailto:example@email.com">hallo@prodmast.com</a>
-          <ul>
-            <li>
-              <a href="#"
-                ><img src="" alt="linkedin" aria-label="Prodmast Linkedin"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="" alt="instagram" aria-label="Prodmast Instagram"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="" alt="facebook" aria-label="Prodmast Facebook"
-              /></a>
-            </li>
+          <ul class="social-links">
+            <li><a href="#"><img src="assets/img/linkedin.png" alt="linkedin" aria-label="Prodmast Linkedin" /></a></li>
+            <li><a href="#"><img src="assets/img/instagram.png" alt="instagram" aria-label="Prodmast Instagram" /></a></li>
+            <li><a href="#"><img src="assets/img/facebook.png" alt="facebook" aria-label="Prodmast Facebook" /></a></li>
           </ul>
         </div>
       </div>
 
-      <div>
+      <div class="footer-bottom">
         <small>2024 Prodmast, All rights reserved</small>
-
-        <p>Terms & Conditions</p>
-        <p>Privacy Policy</p>
+        <p><a href="">Terms & Conditions</a> | <a href="">Privacy Policy</a></p>
       </div>
     </footer>
   </body>

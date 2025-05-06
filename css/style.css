@@ -56,3 +56,13 @@ body {
   color: var(--color-dark-gray);
   background-color: var(--light-gray);
 }
+
+/* === */
+
+.navbar-brand .logo img {
+  height: 2.25rem;
+}
+
+.social-links img {
+  height: 1.25rem;
+}
